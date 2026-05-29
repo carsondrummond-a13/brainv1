@@ -7,7 +7,7 @@ Use this file for decisions specific to this project. Company-wide decisions sho
 ### [Example] Use GitHub as durable project memory
 
 - Date: YYYY-MM-DD
-- Deciders: Carson, partner
+- Deciders: Carson, John
 - Decision: Store project status, tasks, notes, and decisions in Markdown inside GitHub.
 - Reason: Agents and humans need one durable source of truth.
 - Follow-up: Keep dashboards current.

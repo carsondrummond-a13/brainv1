@@ -28,7 +28,7 @@ This dashboard shows current state. Keep it short and actionable.
 
 ## Decisions Needed
 
-- [Example] Confirm Partner's real name and responsibilities.
+- [Example] Confirm John's role and responsibilities and responsibilities.
 
 ## Risks / Blockers
 

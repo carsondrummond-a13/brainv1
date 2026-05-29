@@ -9,7 +9,7 @@ This folder stores company-level meeting notes and summaries.
 #### Attendees
 
 - Carson
-- partner
+- John
 
 #### Summary
 

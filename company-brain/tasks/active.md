@@ -5,7 +5,7 @@ Cross-company tasks that are currently active.
 ## Tasks
 
 - [Example] Review Stripe integration
-  - Owner: partner
+  - Owner: John
   - Related project: Website Launch
   - Status: Not started
   - Next step: Confirm whether Stripe is required for launch.

@@ -48,6 +48,10 @@ These are the rules for humans and Hermes agents using the Company Brain.
 - Ask before archiving active material.
 - Clearly label examples, assumptions, and draft content.
 
+## Human Review Rule
+
+For now, agents should prepare and commit Company Brain changes locally, then wait for human review before pushing to GitHub unless the human explicitly requests a push. This keeps the repo reviewable while the system is still being shaped.
+
 ## Git Workflow
 
 When working locally:
@@ -56,16 +60,17 @@ When working locally:
 2. Make the smallest useful update.
 3. Review changed files.
 4. Commit with a clear message.
-5. Push when the user asks or when the workflow expects GitHub to be updated.
+5. For now, agents must wait for human review before pushing Company Brain changes to GitHub, unless a human explicitly says to push.
 
 ## Example Agent Flow
 
-A human says in Telegram: "Tell Partner the Stripe review is blocking Website Launch."
+A human says in Telegram: "Tell John the Stripe review is blocking Website Launch."
 
 The agent should:
 
 1. Add or update the task in `tasks/active.md`.
-2. Add a routed update in `updates/carson-to-partner/` or draft a message in `outbox/partner/`.
+2. Add a routed update in `updates/carson-to-john/` or draft a message in `outbox/john/`.
 3. Update `dashboards/company.md` and any relevant personal dashboard.
 4. If this becomes a durable decision, add it to `decisions/decision-log.md`.
-5. Commit the changes.
+5. Commit the changes locally.
+6. Wait for human review before pushing, unless explicitly told to push.

@@ -6,7 +6,7 @@ Prepared messages intended for Carson.
 
 ### [Example] Company Brain setup review
 
-Carson, the initial Company Brain mockup is ready for review. Suggested next step: replace placeholder Partner details and decide whether agents should push commits automatically.
+Carson, the initial Company Brain mockup is ready for review. Suggested next step: confirm John's role details and review agent-prepared commits before they are pushed.
 
 ## Agent Guidance
 

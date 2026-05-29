@@ -4,8 +4,8 @@ Updates are routed messages or summaries that should be preserved beyond Telegra
 
 ## Routes
 
-- `carson-to-partner/` — updates from Carson intended for Partner.
-- `partner-to-carson/` — updates from Partner intended for Carson.
+- `carson-to-John/` — updates from Carson intended for John.
+- `John-to-carson/` — updates from John intended for Carson.
 - `company-wide/` — updates relevant to both people.
 
 ## What Belongs Here

@@ -7,7 +7,7 @@ A lightweight record of completed cross-company tasks.
 - [Example] Initialize Company Brain mockup.
   - Completed by: Hermes agent
   - Date: YYYY-MM-DD
-  - Notes: Starter structure created for Carson and partner.
+  - Notes: Starter structure created for Carson and John.
 
 ## Agent Guidance
 

@@ -4,7 +4,7 @@ Use this file for tasks specific to this project.
 
 ## Active
 
-- [Example] Review Stripe integration. Owner: partner. Status: Not started.
+- [Example] Review Stripe integration. Owner: John. Status: Not started.
 
 ## Backlog
 

@@ -9,7 +9,7 @@ Use this file for meeting notes related to this project.
 #### Attendees
 
 - Carson
-- partner
+- John
 
 #### Summary
 

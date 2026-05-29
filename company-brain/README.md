@@ -9,7 +9,7 @@ The purpose is simple:
 - Markdown files are the structured memory format.
 - Hermes agents help route messages, update dashboards, preserve decisions, and keep history organized.
 
-This is an initial mockup for Carson and `partner`. Replace `partner` with the real partner name when known.
+This is an initial mockup for Carson and John.
 
 ## Folder Structure
 
@@ -37,6 +37,7 @@ This is an initial mockup for Carson and `partner`. Replace `partner` with the r
 6. Record durable decisions in `decisions/decision-log.md`.
 7. Route messages through the right `updates/`, `inbox/`, or `outbox/` folder.
 8. Commit changes with clear messages.
+9. For now, wait for human review before pushing Company Brain changes unless explicitly told to push.
 
 ## How Humans Should Use This
 
@@ -65,19 +66,19 @@ Do not log:
 - Random chatter with no future value.
 - Guesses stated as facts.
 
-## Routing Between Carson and Partner
+## Routing Between Carson and John
 
 Use these routes:
 
-- Carson to Partner: `updates/carson-to-partner/`
-- Partner to Carson: `updates/partner-to-carson/`
+- Carson to John: `updates/carson-to-john/`
+- John to Carson: `updates/john-to-carson/`
 - Company-wide: `updates/company-wide/`
 - Needs Carson attention: `inbox/carson/`
-- Needs Partner attention: `inbox/partner/`
+- Needs John attention: `inbox/john/`
 - Prepared message for Carson: `outbox/carson/`
-- Prepared message for Partner: `outbox/partner/`
+- Prepared message for John: `outbox/john/`
 
-Example: if Carson asks an agent to brief Partner about a blocker, the agent should draft the message in `outbox/partner/`, optionally record the routed update in `updates/carson-to-partner/`, and update relevant dashboards.
+Example: if Carson asks an agent to brief John about a blocker, the agent should draft the message in `outbox/john/`, optionally record the routed update in `updates/carson-to-john/`, and update relevant dashboards.
 
 ## Example Content
 
@@ -86,6 +87,6 @@ This mockup includes light example content such as:
 - Example project: Website Launch
 - Example task: Review Stripe integration
 - Example decision: Use GitHub as durable company memory
-- Example routed update from Carson to Partner
+- Example routed update from Carson to John
 
 Example content is clearly labeled and should be replaced as the real company system develops.

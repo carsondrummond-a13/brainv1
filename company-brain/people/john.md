@@ -1,6 +1,6 @@
-# Person: Partner
+# Person: John
 
-Stable context about the second company member. `partner` is a placeholder until the real name is known.
+Stable context about John, the second company member.
 
 ## Role / Responsibilities
 
@@ -16,16 +16,15 @@ Stable context about the second company member. `partner` is a placeholder until
 
 ## Useful Context
 
-- Use `partner` as a conservative placeholder until the real name is known.
 - Ask before assuming responsibilities, ownership, or decision authority.
 
 ## Inbox
 
-- See `inbox/partner/`.
+- See `inbox/john/`.
 
 ## Outbox
 
-- See `outbox/partner/`.
+- See `outbox/john/`.
 
 ## Last Updated
 

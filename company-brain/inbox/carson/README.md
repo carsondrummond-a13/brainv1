@@ -4,11 +4,11 @@ Items needing Carson's attention.
 
 ## Needs Attention
 
-- [Example] Confirm whether agents should automatically push Company Brain commits after each update.
+- [Example] Review agent-prepared Company Brain commits before they are pushed.
 
 ## Waiting For Carson
 
-- [Example] Confirm Partner's real name.
+- [Example] Confirm John's role and responsibilities.
 
 ## Agent Guidance
 

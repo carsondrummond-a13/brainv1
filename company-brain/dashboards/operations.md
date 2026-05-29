@@ -16,11 +16,11 @@ This dashboard tracks company operating health, recurring workflows, and adminis
 ## Open Operational Tasks
 
 - [Example] Review Stripe integration.
-- [Example] Confirm how Telegram routing should work for Carson and Partner.
+- [Example] Confirm how Telegram routing should work for Carson and John.
 
 ## Waiting On
 
-- Partner's real name and role.
+- John's role and responsibilities.
 
 ## Risks / Blockers
 

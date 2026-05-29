@@ -1,12 +1,12 @@
 # Updates: Company-wide
 
-Updates relevant to both Carson and Partner.
+Updates relevant to both Carson and John.
 
 ## Example Company-wide Update
 
 ### [Example] Company Brain mockup initialized
 
-- Audience: Carson and partner
+- Audience: Carson and John
 - Summary: The initial Company Brain folder structure has been created.
 - Action needed: Review the structure and replace placeholder content with real company context.
 

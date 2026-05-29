@@ -13,7 +13,7 @@ Use this file for the current state of a project.
 ## Owners
 
 - Carson
-- partner
+- John
 
 ## Recent Progress
 
