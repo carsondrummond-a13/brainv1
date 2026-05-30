@@ -1,92 +1,55 @@
-# Company Brain
+# Company Brain POC
 
-Company Brain is a shared company memory and lightweight operating system for a two-person company.
+This is a simple proof-of-concept Company Brain for Carson and John.
 
-The purpose is simple:
+## TL;DR
 
-- GitHub is the durable source of truth.
-- Telegram is the communication layer.
-- Markdown files are the structured memory format.
-- Hermes agents help route messages, update dashboards, preserve decisions, and keep history organized.
+- Telegram is where Carson and John talk to agents.
+- GitHub is where the durable company memory lives.
+- Markdown files are the simple database.
+- Future skills and cron jobs will do the heavy lifting automatically.
 
-This is an initial mockup for Carson and John.
+## The basic loop
 
-## Folder Structure
+1. Carson or John sends an update or question through Telegram.
+2. An agent reads or updates these Markdown files.
+3. GitHub keeps the long-term memory and version history.
+4. Cron jobs can send scheduled summaries, reminders, or project updates.
 
-| Folder | Purpose |
-| --- | --- |
-| `dashboards/` | Current state, priorities, blockers, and decisions needed. |
-| `people/` | Stable context about each person, their role, preferences, and responsibilities. |
-| `projects/` | Project-specific memory using a reusable template. |
-| `tasks/` | Cross-company active, backlog, and completed tasks. |
-| `decisions/` | Durable decision history. |
-| `meetings/` | Meeting notes and summaries. |
-| `updates/` | Routed updates between people or to the whole company. |
-| `inbox/` | Items needing a specific person's attention. |
-| `outbox/` | Drafted or prepared messages to send to a person. |
-| `logs/` | Chronological daily and weekly records. |
-| `archive/` | Old, inactive, or superseded material. |
+## Simple folder structure
 
-## How Hermes Agents Should Use This
+```text
+company-brain/
+  README.md
+  OPERATING_PROTOCOL.md
+  dashboard.md
+  log.md
+  decisions.md
+  people/
+    carson.md
+    john.md
+  projects/
+    prototype.md
+```
 
-1. Pull the latest repo state before writing.
-2. Read the relevant dashboard, person file, project files, and inbox before acting.
-3. Do not invent facts. If something is uncertain, label it clearly as unknown or ask for clarification.
-4. Write durable company memory to Markdown files, not only to chat.
-5. Update dashboards when priorities, blockers, tasks, or decisions change.
-6. Record durable decisions in `decisions/decision-log.md`.
-7. Route messages through the right `updates/`, `inbox/`, or `outbox/` folder.
-8. Commit changes with clear messages.
-9. For now, wait for human review before pushing Company Brain changes unless explicitly told to push.
+## What each file is for
 
-## How Humans Should Use This
+- `dashboard.md`: what is happening right now.
+- `log.md`: chronological record of important updates.
+- `decisions.md`: decisions the company should not forget.
+- `people/`: useful context about Carson and John.
+- `projects/`: project-specific details and history.
 
-- Use dashboards to quickly see what matters right now.
-- Use inbox folders for things needing attention.
-- Use outbox folders for messages prepared by agents before they are sent through Telegram.
-- Use project folders for detailed project memory.
-- Use logs for history, not current priorities.
-- Use the decision log when the company makes choices that should not be lost.
+## Example future questions this should support
 
-## What Counts as Loggable Information
+- "What projects has John worked on?"
+- "What changed this week?"
+- "What decisions did we make about the prototype?"
+- "What is Carson waiting on?"
+- "Send John a project update."
 
-Good things to log:
+## Prototype principle
 
-- A meaningful task was completed.
-- A blocker appeared or was resolved.
-- A customer, vendor, or teammate gave important feedback.
-- A project changed phase.
-- A decision was made.
-- A recurring process changed.
-- A Telegram update contains information that should be preserved.
+Keep this simple until the workflow is proven.
 
-Do not log:
-
-- Secrets, passwords, API keys, tokens, private credentials, or sensitive personal data.
-- Random chatter with no future value.
-- Guesses stated as facts.
-
-## Routing Between Carson and John
-
-Use these routes:
-
-- Carson to John: `updates/carson-to-john/`
-- John to Carson: `updates/john-to-carson/`
-- Company-wide: `updates/company-wide/`
-- Needs Carson attention: `inbox/carson/`
-- Needs John attention: `inbox/john/`
-- Prepared message for Carson: `outbox/carson/`
-- Prepared message for John: `outbox/john/`
-
-Example: if Carson asks an agent to brief John about a blocker, the agent should draft the message in `outbox/john/`, optionally record the routed update in `updates/carson-to-john/`, and update relevant dashboards.
-
-## Example Content
-
-This mockup includes light example content such as:
-
-- Example project: Website Launch
-- Example task: Review Stripe integration
-- Example decision: Use GitHub as durable company memory
-- Example routed update from Carson to John
-
-Example content is clearly labeled and should be replaced as the real company system develops.
+Add new folders only when the current files become painful to use.

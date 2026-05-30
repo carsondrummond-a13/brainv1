@@ -1,31 +1,25 @@
-# Person: John
+# John
 
-Stable context about John, the second company member.
+Purpose: useful context about John for agents and future company memory.
 
-## Role / Responsibilities
+## Role / Context
 
-- Unknown. Replace with real role when confirmed.
+- Company Brain user.
+- Specific role details can be added later when known.
 
 ## Communication Preferences
 
-- Unknown. Do not invent preferences.
+- Unknown for now.
 
 ## Current Focus
 
-- [Example] Review routed updates from Carson.
+- To be updated from real Telegram interactions or human-provided context.
 
-## Useful Context
+## Projects Worked On
 
-- Ask before assuming responsibilities, ownership, or decision authority.
+- Company Brain Prototype
 
-## Inbox
+## Notes for Agents
 
-- See `inbox/john/`.
-
-## Outbox
-
-- See `outbox/john/`.
-
-## Last Updated
-
-- YYYY-MM-DD by human or agent.
+- Do not invent details about John.
+- Add real context only when John or Carson provides it.

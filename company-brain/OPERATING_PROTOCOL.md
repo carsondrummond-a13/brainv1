@@ -1,76 +1,40 @@
-# Company Brain Operating Protocol
+# Operating Protocol
 
-These are the rules for humans and Hermes agents using the Company Brain.
+This file tells agents how to use the Company Brain.
 
-## Core Model
+## Core rules
 
-- Telegram is for communication.
-- GitHub is for memory.
-- Markdown files are the operating system.
-- Dashboards are for current state.
-- Logs are for history.
+1. Telegram is for communication.
+2. GitHub is for durable memory.
+3. Markdown files are the company operating system.
+4. Do not invent facts.
+5. Do not store secrets, passwords, tokens, or private credentials.
+6. Pull latest changes before editing locally.
+7. Commit changes with clear messages.
+8. Ask before deleting major information or restructuring the brain.
+9. Prefer simple updates over complicated systems.
+10. If something belongs in long-term memory, write it here instead of leaving it only in chat.
 
-## Agent Rules
+## Where agents should write things
 
-1. Pull before writing if using git locally.
-2. Read relevant context before changing files.
-3. Do not invent facts.
-4. Do not store secrets, passwords, tokens, private keys, or credentials.
-5. Commit changes with clear messages.
-6. Ask before deleting, restructuring, renaming major folders, or making major company decisions.
-7. Route updates to the right inbox, outbox, or updates folder.
-8. Update dashboards when priorities, blockers, tasks, ownership, or decisions change.
-9. Record durable decisions in `decisions/decision-log.md`.
-10. Prefer small, reviewable changes over large rewrites.
+- Current status or priorities: `dashboard.md`
+- Chronological updates: `log.md`
+- Durable decisions: `decisions.md`
+- Context about Carson: `people/carson.md`
+- Context about John: `people/john.md`
+- Project-specific details: a file inside `projects/`
 
-## Communication Rules
+## Future agent behavior
 
-- Telegram messages are useful for fast coordination, but important information should be preserved in GitHub.
-- If a Telegram conversation creates a task, record it in `tasks/active.md` or `tasks/backlog.md`.
-- If a Telegram conversation creates a decision, record it in `decisions/decision-log.md`.
-- If a Telegram conversation changes project state, update the relevant project file and dashboard.
+Future skills can use this brain to:
 
-## Memory Rules
+- answer questions about company history
+- summarize weekly progress
+- send scheduled cron updates
+- route project updates to Carson or John over Telegram
+- identify what each person has worked on
+- keep project records organized without humans manually maintaining every file
 
-- Current state belongs in dashboards.
-- Historical records belong in logs.
-- Project-specific details belong in projects.
-- Person-specific stable context belongs in people.
-- Decisions belong in the decision log.
-- Inbox items should be actionable.
-- Outbox items should be ready to review or send.
+## Human review rule
 
-## Safety Rules
-
-- Never commit secrets.
-- Never guess a person's preference or decision. Mark unknowns as `Unknown`.
-- Ask before deleting information.
-- Ask before archiving active material.
-- Clearly label examples, assumptions, and draft content.
-
-## Human Review Rule
-
-For now, agents should prepare and commit Company Brain changes locally, then wait for human review before pushing to GitHub unless the human explicitly requests a push. This keeps the repo reviewable while the system is still being shaped.
-
-## Git Workflow
-
-When working locally:
-
-1. Run `git pull --ff-only` before changes.
-2. Make the smallest useful update.
-3. Review changed files.
-4. Commit with a clear message.
-5. For now, agents must wait for human review before pushing Company Brain changes to GitHub, unless a human explicitly says to push.
-
-## Example Agent Flow
-
-A human says in Telegram: "Tell John the Stripe review is blocking Website Launch."
-
-The agent should:
-
-1. Add or update the task in `tasks/active.md`.
-2. Add a routed update in `updates/carson-to-john/` or draft a message in `outbox/john/`.
-3. Update `dashboards/company.md` and any relevant personal dashboard.
-4. If this becomes a durable decision, add it to `decisions/decision-log.md`.
-5. Commit the changes locally.
-6. Wait for human review before pushing, unless explicitly told to push.
+For now, agents should make small, understandable changes. If a change deletes information, restructures the brain, or changes the operating model, ask for human approval first.

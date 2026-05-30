@@ -1,34 +1,26 @@
-# Person: Carson
+# Carson
 
-Stable context about Carson. Keep this factual and useful for future agents.
+Purpose: useful context about Carson for agents and future company memory.
 
-## Role / Responsibilities
+## Role / Context
 
-- Company member.
-- Uses Hermes agents to build and operate a shared company brain.
+- Company Brain user and prototype builder.
+- Wants the system to stay simple enough to understand during the proof of concept.
 
 ## Communication Preferences
 
-- Telegram is the communication layer.
-- Important information should be preserved in GitHub Markdown files.
+- Prefers concise, plain-English explanations.
+- Likes TL;DR summaries before details.
 
 ## Current Focus
 
-- [Example] Establish Company Brain V1 as a practical operating system.
+- Testing whether Telegram + agents + GitHub can make company organization easier.
 
-## Useful Context
+## Projects Worked On
 
-- Do not assume unstated decisions.
-- Ask before major restructuring or deletion.
+- Company Brain Prototype
 
-## Inbox
+## Notes for Agents
 
-- See `inbox/carson/`.
-
-## Outbox
-
-- See `outbox/carson/`.
-
-## Last Updated
-
-- YYYY-MM-DD by human or agent.
+- Do not overcomplicate the folder structure unless there is a clear reason.
+- Explain changes simply.

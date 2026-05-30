@@ -1,3 +1,0 @@
-# Apollo-test
-
-hello world!
