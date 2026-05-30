@@ -10,6 +10,7 @@ Purpose: show the current state of the company at a glance.
 ## Active Projects
 
 - Company Brain Prototype
+- Project A: Setting Up the Brain
 
 ## Open Questions
 
@@ -27,4 +28,4 @@ Purpose: show the current state of the company at a glance.
 
 ## Last Updated
 
-- 2026-05-30
+- 2026-05-30 — Project A added as the first example project.

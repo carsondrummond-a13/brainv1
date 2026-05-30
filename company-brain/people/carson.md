@@ -19,6 +19,7 @@ Purpose: useful context about Carson for agents and future company memory.
 ## Projects Worked On
 
 - Company Brain Prototype
+- Project A: Setting Up the Brain — owner.
 
 ## Notes for Agents
 

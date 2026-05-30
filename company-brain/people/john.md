@@ -18,6 +18,7 @@ Purpose: useful context about John for agents and future company memory.
 ## Projects Worked On
 
 - Company Brain Prototype
+- Project A: Setting Up the Brain — supports through testing and input.
 
 ## Notes for Agents
 
