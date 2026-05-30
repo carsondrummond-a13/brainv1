@@ -2,7 +2,7 @@
 
 ## Summary
 
-Project A is about setting up the Company Brain proof of concept. The goal is to show that Carson and John can use Telegram to send updates or ask questions, while agents save and retrieve useful company memory from GitHub Markdown files.
+Project A is about setting up the Company Brain proof of concept. The goal is to show that Carson and John can use Telegram to send updates or ask questions, while agents save and retrieve useful company memory from GitHub Markdown files. A mock grocery list has been added to Project A to test these features.
 
 ## Status
 
@@ -38,7 +38,7 @@ Carson
 
 ## Deadlines
 
-No deadline currently.
+The grocery list needs to be purchased before June 10, 2026.
 
 ## Important Files
 
@@ -66,7 +66,7 @@ No deadline currently.
 
 ## Last Updated
 
-2026-05-30 by Carson request, written by agent.
+2026-05-30 by Carson.
 
 ## Confidence / Source
 
