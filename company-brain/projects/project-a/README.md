@@ -66,7 +66,7 @@ The grocery list needs to be purchased before June 10, 2026.
 
 ## Last Updated
 
-2026-05-30 by Carson.
+2026-05-30 by Hermes Agent via Carson.
 
 ## Confidence / Source
 
