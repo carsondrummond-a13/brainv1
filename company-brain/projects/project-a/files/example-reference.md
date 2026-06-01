@@ -19,9 +19,9 @@ Needs to be Bought:
  - mustard
  - bread
  - ham
- - cheese
  - coffee
  - napkins
 
 Already Purchased:
  - apples
+ - cheese
