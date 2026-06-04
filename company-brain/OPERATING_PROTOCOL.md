@@ -14,6 +14,7 @@ This file tells agents how to use the Company Brain.
 8. Ask before deleting major information or restructuring the brain.
 9. Prefer simple updates over complicated systems.
 10. If something belongs in long-term memory, write it here instead of leaving it only in chat.
+11. Do not automatically save every Telegram message. Capture only intentional brain updates, such as messages starting with `Log this:`, `Brain note:`, `Project update:`, `Task:`, `Decision:`, or `Remember for the brain:`.
 
 ## Where agents should write things
 
@@ -23,6 +24,7 @@ This file tells agents how to use the Company Brain.
 - Context about Carson: `people/carson.md`
 - Context about John: `people/john.md`
 - Project-specific details: a file inside `projects/`
+- Raw Telegram updates intentionally meant for memory: `inbox/carson.md` or `inbox/john.md` before organization
 
 ## Future agent behavior
 

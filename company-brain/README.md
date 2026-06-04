@@ -8,6 +8,7 @@ This is a simple proof-of-concept Company Brain for Carson and John.
 - GitHub is where the durable company memory lives.
 - Markdown files are the simple database.
 - Future skills and cron jobs will do the heavy lifting automatically.
+- The inbox captures intentional raw updates before agents organize them.
 
 ## The basic loop
 
@@ -25,6 +26,10 @@ company-brain/
   dashboard.md
   log.md
   decisions.md
+  inbox/
+    README.md
+    carson.md
+    john.md
   people/
     carson.md
     john.md
@@ -37,6 +42,7 @@ company-brain/
 - `dashboard.md`: what is happening right now.
 - `log.md`: chronological record of important updates.
 - `decisions.md`: decisions the company should not forget.
+- `inbox/`: raw Telegram updates intentionally captured before organization.
 - `people/`: useful context about Carson and John.
 - `projects/`: project-specific details and history.
 
