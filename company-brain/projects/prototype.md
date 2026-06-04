@@ -30,6 +30,7 @@ Instead of humans manually maintaining docs, future skills should let agents do 
 - Proof-of-concept structure created.
 - Keeping the first version intentionally simple.
 - Project A is the first test case inside this prototype, focused on grocery-list file updates.
+- Customer Reviews is the second test case, focused on mock engineering-services review intake, categorization, and clarification behavior.
 
 ## Next Steps
 
