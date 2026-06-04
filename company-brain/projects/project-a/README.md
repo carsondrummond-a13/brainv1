@@ -1,8 +1,10 @@
-# Project A: Setting Up the Brain
+# Project A: Grocery List Test Case
 
 ## Summary
 
-Project A is about setting up the Company Brain proof of concept. The goal is to show that Carson and John can use Telegram to send updates or ask questions, while agents save and retrieve useful company memory from GitHub Markdown files. A mock grocery list has been added to Project A to test these features.
+Project A is a test case inside the larger Company Brain Prototype. It is not the whole brain project.
+
+The goal of Project A is to validate whether agents can read, update, and explain project-specific files using a simple grocery-list example.
 
 ## Status
 
@@ -19,16 +21,16 @@ Carson
 
 ## Responsibilities
 
-- Carson: owns the project, defines the prototype direction, and decides what the Company Brain should become.
-- John: supports the project through testing, feedback, and input.
-- Future agents: help read, update, summarize, and organize the brain through Telegram, skills, and cron jobs.
+- Carson: owns the test case and decides whether the structure is easy to understand.
+- John: supports through testing, feedback, and input.
+- Future agents: use this project as a small source-of-truth test before handling more important company records.
 
 ## Current Priorities
 
-- Keep the proof of concept simple and understandable.
-- Create example project memory that future agents can parse.
-- Test whether agents can answer questions like: "What projects has John worked on?"
-- Prepare for future Telegram updates and scheduled cron summaries.
+- Keep the test case simple and understandable.
+- Verify that agents can answer questions from the project files.
+- Verify that agents can update a project file without losing historical context.
+- Use this project to test intentional inbox updates before adding more automation.
 
 ## Open Tasks
 
@@ -42,22 +44,24 @@ The grocery list needs to be purchased before June 10, 2026.
 
 ## Important Files
 
-- `files/project-notes.md` — simple working notes for the project. Mostly empty for now.
-- `files/example-reference.md` — placeholder reference file used to test how agents parse project files.
+- `files/example-reference.md` — grocery-list reference file used to test how agents parse and update project files.
+- `files/project-notes.md` — short working notes for this test case.
 
 ## Recent Updates
 
 - 2026-05-30 — Project A created as an example project for setting up the Company Brain.
+- 2026-06-01 — Cheese was moved from `Needs to be Bought` to `Already Purchased` in the grocery-list file.
+- 2026-06-04 — Project A was clarified as a grocery-list test case inside the larger Company Brain Prototype.
 
 ## Decisions
 
-- 2026-05-30 — Keep Project A simple and focused on proving the Telegram + GitHub + Markdown workflow.
+- 2026-05-30 — Keep Project A simple and focused on proving whether agents can work with project-specific Markdown files.
+- 2026-06-04 — Keep Project A separate from the overall Company Brain Prototype, but define it as a test case rather than a duplicate prototype project.
 
 ## Open Questions
 
-- What exact Telegram commands or message formats should Carson and John use?
-- What cron job summaries would be useful: daily, weekly, or project-specific?
-- What future skills should be built first?
+- Is this project structure easy enough for Carson and John to understand?
+- What is the next realistic test case after the grocery-list example?
 
 ## Blockers
 
@@ -66,14 +70,15 @@ The grocery list needs to be purchased before June 10, 2026.
 
 ## Last Updated
 
-2026-05-30 by Hermes Agent via Carson.
+2026-06-04 by Hermes Agent via Carson.
 
 ## Confidence / Source
 
 Confirmed by Carson in chat:
 
-- Project A is about setting up the brain.
-- There is no deadline.
+- Project A should stay separate from the Company Brain Prototype.
+- Project A should be clarified as a test case inside the prototype.
+- The grocery-list deadline is June 10, 2026.
 - Status is in progress.
 - Carson owns the project.
 - John supports via testing and input.

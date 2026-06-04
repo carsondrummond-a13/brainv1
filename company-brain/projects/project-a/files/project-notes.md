@@ -1,9 +1,9 @@
 # Project A Notes
 
-Purpose: working notes for Project A.
+Purpose: short working notes for the Project A grocery-list test case.
 
 ## Notes
 
-- Carson is using Project A as a test project.
-- The idea is to test whether Carson and John can view/edit the github repo for the company brain and receive cron jobs in regards to project updates.
-- A fake grocery list has been created to test these features.
+- Project A is a test case inside the larger Company Brain Prototype.
+- The current test artifact is a fake grocery list in `example-reference.md`.
+- The test checks whether agents can preserve the original list while updating current status sections like `Needs to be Bought` and `Already Purchased`.

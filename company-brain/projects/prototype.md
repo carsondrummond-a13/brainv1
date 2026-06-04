@@ -29,6 +29,7 @@ Instead of humans manually maintaining docs, future skills should let agents do 
 
 - Proof-of-concept structure created.
 - Keeping the first version intentionally simple.
+- Project A is the first test case inside this prototype, focused on grocery-list file updates.
 
 ## Next Steps
 
