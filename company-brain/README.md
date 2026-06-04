@@ -8,7 +8,8 @@ This is a simple proof-of-concept Company Brain for Carson and John.
 - GitHub is where the durable company memory lives.
 - Markdown files are the simple database.
 - Future skills and cron jobs will do the heavy lifting automatically.
-- The inbox captures intentional raw updates before agents organize them.
+- Certainty Review tells Brain Bot when to act, ask, or defer.
+- The inbox is the fallback for unresolved items, not the first stop for uncertainty.
 
 ## The basic loop
 
@@ -26,10 +27,16 @@ company-brain/
   dashboard.md
   log.md
   decisions.md
+  certainty-review/
+    README.md
+    router-rules.md
+    pending-clarifications.md
+    routing-log.md
   inbox/
     README.md
     carson.md
     john.md
+    unclear.md
   people/
     carson.md
     john.md
@@ -42,7 +49,8 @@ company-brain/
 - `dashboard.md`: what is happening right now.
 - `log.md`: chronological record of important updates.
 - `decisions.md`: decisions the company should not forget.
-- `inbox/`: raw Telegram updates intentionally captured before organization.
+- `certainty-review/`: rules and tracking for truth-first autonomous routing.
+- `inbox/`: unresolved or raw Telegram updates that could not be safely organized yet.
 - `people/`: useful context about Carson and John.
 - `projects/`: project-specific details and history.
 
