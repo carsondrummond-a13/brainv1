@@ -42,6 +42,16 @@ company-brain/
     john.md
   projects/
     prototype.md
+    project-a/
+      README.md
+      files/
+        example-reference.md
+        project-notes.md
+    customer-reviews-engineering-services/
+      README.md
+      files/
+        customer-reviews.md
+        project-notes.md
 ```
 
 ## What each file is for

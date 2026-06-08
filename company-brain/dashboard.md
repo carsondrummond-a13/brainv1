@@ -10,7 +10,8 @@ Purpose: show the current state of the company at a glance.
 ## Active Projects
 
 - Company Brain Prototype
-- Project A: Setting Up the Brain
+- Project A: Grocery List Test Case
+- Customer Reviews: Mock Engineering Services
 
 ## Open Questions
 
@@ -28,4 +29,4 @@ Purpose: show the current state of the company at a glance.
 
 ## Last Updated
 
-- 2026-05-30 — Project A added as the first example project.
+- 2026-06-08 — Dashboard refreshed to include the current mock infrastructure test projects.
