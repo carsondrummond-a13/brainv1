@@ -27,6 +27,7 @@ company-brain/
   dashboard.md
   log.md
   decisions.md
+  future-architecture.md
   certainty-review/
     README.md
     router-rules.md
@@ -63,6 +64,7 @@ company-brain/
 - `inbox/`: unresolved or raw Telegram updates that could not be safely organized yet.
 - `people/`: useful context about Carson and John.
 - `projects/`: project-specific details and history.
+- `future-architecture.md`: notes on how Brain v1 could evolve using ideas from systems like GBrain.
 
 ## Example future questions this should support
 
